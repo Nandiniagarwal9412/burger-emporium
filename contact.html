@@ -711,39 +711,6 @@ Made with ❤️ for burger lovers.
 <script src="js/script.js"></script>
 
 
-<script>
-
-    const contactForm =
-        document.getElementById("contactForm");
-
-    const contactSuccess =
-        document.getElementById("contactSuccess");
-
-
-    contactForm.addEventListener(
-        "submit",
-        function(event) {
-
-            event.preventDefault();
-
-            contactSuccess.classList.add("show");
-
-            contactForm.reset();
-
-
-            setTimeout(
-                function() {
-
-                    contactSuccess.classList.remove("show");
-
-                },
-                5000
-            );
-
-        }
-    );
-
-</script>
 
 
 </body>
