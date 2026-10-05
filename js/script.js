@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://127.0.0.1:5000";
+const API_BASE_URL = "https://burger-emporium-api.onrender.com";
 const hamburger = document.getElementById("hamburger");
 const navMenu = document.getElementById("navMenu");
 const navLinks = document.querySelectorAll(".nav-link, .nav-cta");
