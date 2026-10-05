@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Burger Emporium | Admin Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/logo.jpg">
+</head>
+
+<body>
+
+    <main class="admin-page">
+
+       <section class="admin-header">
+
+    <div>
+        <p class="admin-tag">BURGER EMPORIUM</p>
+
+        <h1>
+            ADMIN
+            <span>DASHBOARD</span>
+        </h1>
+
+        <p>
+            Manage customer messages, feedback and partnership enquiries.
+        </p>
+    </div>
+
+    <button
+        type="button"
+        class="admin-logout-btn"
+        id="adminLogoutBtn"
+    >
+        LOGOUT
+        <span>→</span>
+    </button>
+
+</section>
+
+
+        <!-- STAT CARDS -->
+
+        <section class="admin-stats">
+
+            <div class="admin-stat-card">
+
+                <div class="admin-stat-icon">
+                    📩
+                </div>
+
+                <div>
+                    <h3 id="contactCount">0</h3>
+                    <p>Contact Messages</p>
+                </div>
+
+            </div>
+
+
+            <div class="admin-stat-card">
+
+                <div class="admin-stat-icon">
+                    ⭐
+                </div>
+
+                <div>
+                    <h3 id="feedbackCount">0</h3>
+                    <p>Customer Feedback</p>
+                </div>
+
+            </div>
+
+
+            <div class="admin-stat-card">
+
+                <div class="admin-stat-icon">
+                    🤝
+                </div>
+
+                <div>
+                    <h3 id="partnerCount">0</h3>
+                    <p>Partner Enquiries</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="admin-section">
+
+            <div class="admin-section-heading">
+
+                <div>
+                    <p>RECENT</p>
+                    <h2>CONTACT MESSAGES</h2>
+                </div>
+
+            </div>
+
+            <div
+                class="admin-table-wrapper"
+                id="contactTable"
+            >
+
+                <p class="admin-loading">
+                    Loading contact messages...
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEEDBACK -->
+
+        <section class="admin-section">
+
+            <div class="admin-section-heading">
+
+                <div>
+                    <p>RECENT</p>
+                    <h2>CUSTOMER FEEDBACK</h2>
+                </div>
+
+            </div>
+
+            <div
+                class="admin-table-wrapper"
+                id="feedbackTable"
+            >
+
+                <p class="admin-loading">
+                    Loading feedback...
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PARTNER -->
+
+        <section class="admin-section">
+
+            <div class="admin-section-heading">
+
+                <div>
+                    <p>RECENT</p>
+                    <h2>PARTNER ENQUIRIES</h2>
+                </div>
+
+            </div>
+
+            <div
+                class="admin-table-wrapper"
+                id="partnerTable"
+            >
+
+                <p class="admin-loading">
+                    Loading partnership enquiries...
+                </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="js/admin.js"></script>
+
+</body>
+
+</html>

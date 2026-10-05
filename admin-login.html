@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Burger Emporium | Admin Login</title>
+
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" type="image/png" href="images/logo.jpg">
+</head>
+
+<body>
+
+    <main class="admin-login-page">
+
+        <div class="admin-login-card">
+
+            <div class="admin-login-logo">
+                <span>BURGER</span>
+                <strong>EMPORIUM</strong>
+            </div>
+
+
+            <div class="admin-login-heading">
+
+                <p>PRIVATE AREA</p>
+
+                <h1>
+                    ADMIN
+                    <span>LOGIN</span>
+                </h1>
+
+                <p>
+                    Sign in to manage Burger Emporium
+                    customer enquiries and feedback.
+                </p>
+
+            </div>
+
+
+            <form id="adminLoginForm">
+
+                <div class="admin-input-group">
+
+                    <label for="adminEmail">
+                        ADMIN EMAIL
+                    </label>
+
+                    <input
+                        type="email"
+                        id="adminEmail"
+                        placeholder="Enter admin email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="admin-input-group">
+
+                    <label for="adminPassword">
+                        PASSWORD
+                    </label>
+
+                    <input
+                        type="password"
+                        id="adminPassword"
+                        placeholder="Enter password"
+                        required
+                    >
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="admin-login-btn"
+                >
+                    LOGIN TO DASHBOARD
+                    <span>→</span>
+                </button>
+
+
+                <p
+                    class="admin-login-error"
+                    id="adminLoginError"
+                ></p>
+
+            </form>
+
+
+            <a
+                href="index.html"
+                class="admin-back-link"
+            >
+                ← Back to Burger Emporium
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <script src="js/admin-login.js"></script>
+
+</body>
+
+</html>

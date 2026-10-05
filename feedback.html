@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Feedback | Burger Emporium</title>
+
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="icon" type="image/png" href="images/logo.jpg">
+
+</head>
+
+
+<body>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+         <a href="index.html" class="logo">
+    <img src="images/logo.jpg" alt="Burger Emporium" class="logo-image">
+</a>
+
+
+        <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+        <nav class="nav-menu" id="navMenu">
+
+            <a href="index.html" class="nav-link">
+                HOME
+            </a>
+
+            <a href="menu.html" class="nav-link">
+                MENU
+            </a>
+
+            <a href="about.html" class="nav-link">
+                ABOUT US
+            </a>
+
+            <a href="gallery.html" class="nav-link">
+                GALLERY
+            </a>
+
+            <a href="feedback.html" class="nav-link active">
+                FEEDBACK
+            </a>
+
+            <a href="contact.html" class="nav-link">
+                CONTACT
+            </a>
+
+            <a href="partner.html" class="nav-cta">
+                PARTNER WITH US
+                <span>↗</span>
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- ================= FEEDBACK HERO ================= -->
+
+<section class="feedback-hero">
+      <video
+        class="feedback-bg-video"
+        autoplay
+        muted
+        loop
+        playsinline
+    >
+        <source src="videos/feedback.mp4" type="video/mp4">
+    </video>
+    <div class="feedback-hero-overlay"></div>
+
+
+    <div class="feedback-hero-content">
+
+        <p class="feedback-hero-tag">
+            WE WANT TO HEAR FROM YOU
+        </p>
+
+        <h1>
+
+            TELL US
+            <br>
+
+            <span>WHAT YOU THINK.</span>
+
+        </h1>
+
+        <p>
+            Loved the burger? Craved more? Have something
+            we could do better? Your feedback helps us
+            make every bite better.
+        </p>
+
+
+        <a href="#feedback-form" class="feedback-hero-btn">
+
+            SHARE YOUR FEEDBACK
+
+            <span>↓</span>
+
+        </a>
+
+    </div>
+
+
+    <div class="feedback-circle feedback-circle-one"></div>
+
+    <div class="feedback-circle feedback-circle-two"></div>
+
+</section>
+
+
+
+<!-- ================= FEEDBACK INTRO ================= -->
+
+<section class="feedback-intro">
+
+    <div class="feedback-intro-content">
+
+        <p class="feedback-section-tag">
+            YOUR OPINION MATTERS
+        </p>
+
+        <h2>
+
+            EVERY BITE
+            <span>COUNTS.</span>
+
+        </h2>
+
+        <p>
+            At Burger Emporium, we're always looking for
+            ways to make your experience better.
+        </p>
+
+        <p>
+            Whether you loved the flavours, enjoyed the vibe
+            or have a suggestion for us, we'd genuinely
+            love to hear it.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FEEDBACK FORM ================= -->
+
+<section class="feedback-section" id="feedback-form">
+
+    <div class="feedback-container">
+
+
+        <!-- LEFT INFORMATION -->
+
+        <div class="feedback-info">
+
+            <p class="feedback-section-tag">
+                SHARE YOUR EXPERIENCE
+            </p>
+
+            <h2>
+
+                HOW WAS YOUR
+                <span>EXPERIENCE?</span>
+
+            </h2>
+
+            <p class="feedback-info-text">
+
+                Your feedback helps us understand what we're
+                doing right and where we can improve.
+
+            </p>
+
+
+            <div class="feedback-highlight">
+
+                <div class="feedback-highlight-icon">
+                    ★
+                </div>
+
+                <div>
+
+                    <h3>
+                        LOVE IT?
+                    </h3>
+
+                    <p>
+                        Tell us what made your visit special.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="feedback-highlight">
+
+                <div class="feedback-highlight-icon">
+                    💡
+                </div>
+
+                <div>
+
+                    <h3>
+                        HAVE AN IDEA?
+                    </h3>
+
+                    <p>
+                        We're always open to new suggestions.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="feedback-highlight">
+
+                <div class="feedback-highlight-icon">
+                    ❤️
+                </div>
+
+                <div>
+
+                    <h3>
+                        NOT PERFECT?
+                    </h3>
+
+                    <p>
+                        Let us know how we can do better.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FORM -->
+
+        <div class="feedback-form-box">
+
+            <form id="feedbackForm">
+
+
+                <!-- NAME -->
+
+                <div class="feedback-form-group">
+
+                    <label for="name">
+                        YOUR NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        id="feedbackName"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="feedback-form-group">
+
+                    <label for="email">
+                        EMAIL ADDRESS
+                    </label>
+
+                    <input
+                        type="email"
+                        id="feedbackEmail"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- OVERALL RATING -->
+
+                <div class="feedback-form-group">
+
+                    <label>
+                        OVERALL EXPERIENCE
+                    </label>
+
+
+                    <div class="star-rating">
+
+                        <input
+                            type="radio"
+                            id="star5"
+                            name="rating"
+                            value="5"
+                        >
+
+                        <label for="star5">
+                            ★
+                        </label>
+
+
+                        <input
+                            type="radio"
+                            id="star4"
+                            name="rating"
+                            value="4"
+                        >
+
+                        <label for="star4">
+                            ★
+                        </label>
+
+
+                        <input
+                            type="radio"
+                            id="star3"
+                            name="rating"
+                            value="3"
+                        >
+
+                        <label for="star3">
+                            ★
+                        </label>
+
+
+                        <input
+                            type="radio"
+                            id="star2"
+                            name="rating"
+                            value="2"
+                        >
+
+                        <label for="star2">
+                            ★
+                        </label>
+
+
+                        <input
+                            type="radio"
+                            id="star1"
+                            name="rating"
+                            value="1"
+                        >
+
+                        <label for="star1">
+                            ★
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- EXPERIENCE CATEGORIES -->
+
+                <div class="feedback-rating-grid">
+
+
+                    <div class="feedback-form-group">
+
+                        <label for="food">
+                            FOOD QUALITY
+                        </label>
+
+                        <select id="food" name="food">
+
+                            <option value="">
+                                Select rating
+                            </option>
+
+                            <option value="5">
+                                Excellent
+                            </option>
+
+                            <option value="4">
+                                Very Good
+                            </option>
+
+                            <option value="3">
+                                Good
+                            </option>
+
+                            <option value="2">
+                                Needs Improvement
+                            </option>
+
+                            <option value="1">
+                                Poor
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="feedback-form-group">
+
+                        <label for="service">
+                            SERVICE
+                        </label>
+
+                        <select id="service" name="service">
+
+                            <option value="">
+                                Select rating
+                            </option>
+
+                            <option value="5">
+                                Excellent
+                            </option>
+
+                            <option value="4">
+                                Very Good
+                            </option>
+
+                            <option value="3">
+                                Good
+                            </option>
+
+                            <option value="2">
+                                Needs Improvement
+                            </option>
+
+                            <option value="1">
+                                Poor
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="feedback-form-group">
+
+                        <label for="ambience">
+                            AMBIENCE
+                        </label>
+
+                        <select id="ambience" name="ambience">
+
+                            <option value="">
+                                Select rating
+                            </option>
+
+                            <option value="5">
+                                Excellent
+                            </option>
+
+                            <option value="4">
+                                Very Good
+                            </option>
+
+                            <option value="3">
+                                Good
+                            </option>
+
+                            <option value="2">
+                                Needs Improvement
+                            </option>
+
+                            <option value="1">
+                                Poor
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="feedback-form-group">
+
+                        <label for="value">
+                            VALUE FOR MONEY
+                        </label>
+
+                        <select id="value" name="value">
+
+                            <option value="">
+                                Select rating
+                            </option>
+
+                            <option value="5">
+                                Excellent
+                            </option>
+
+                            <option value="4">
+                                Very Good
+                            </option>
+
+                            <option value="3">
+                                Good
+                            </option>
+
+                            <option value="2">
+                                Needs Improvement
+                            </option>
+
+                            <option value="1">
+                                Poor
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- FEEDBACK -->
+
+                <div class="feedback-form-group">
+
+                    <label for="message">
+                        YOUR FEEDBACK
+                    </label>
+
+                    <textarea
+                        id="feedbackMessage"
+                        name="message"
+                        rows="6"
+                        placeholder="Tell us about your experience..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+
+                <!-- RECOMMEND -->
+
+                <div class="feedback-form-group">
+
+                    <label>
+                        WOULD YOU RECOMMEND BURGER EMPORIUM?
+                    </label>
+
+
+                    <div class="recommend-options">
+
+                        <label class="recommend-option">
+
+                            <input
+                                type="radio"
+                                name="recommend"
+                                value="yes"
+                            >
+
+                            <span>
+                                YES, DEFINITELY!
+                            </span>
+
+                        </label>
+
+
+                        <label class="recommend-option">
+
+                            <input
+                                type="radio"
+                                name="recommend"
+                                value="maybe"
+                            >
+
+                            <span>
+                                MAYBE
+                            </span>
+
+                        </label>
+
+
+                        <label class="recommend-option">
+
+                            <input
+                                type="radio"
+                                name="recommend"
+                                value="no"
+                            >
+
+                            <span>
+                                NOT YET
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- SUBMIT -->
+
+                <button
+                    type="submit"
+                    class="feedback-submit-btn"
+                >
+
+                    SUBMIT FEEDBACK
+
+                    <span>→</span>
+
+                </button>
+
+
+                <!-- SUCCESS MESSAGE -->
+
+                <div
+                    class="feedback-success"
+                    id="feedbackSuccess"
+                >
+
+                    <div class="success-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        THANK YOU!
+                    </h3>
+
+                    <p>
+                        Your feedback means a lot to us.
+                        Keep the burger love coming!
+                    </p>
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FEEDBACK QUOTE ================= -->
+
+<section class="feedback-quote">
+
+    <div class="feedback-quote-content">
+
+        <div class="quote-mark">
+            “
+        </div>
+
+        <h2>
+            GREAT FOOD
+            <br>
+            STARTS WITH
+            <span>GREAT PEOPLE.</span>
+        </h2>
+
+        <p>
+            And that's why we're always listening.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CTA ================= -->
+
+<section class="feedback-cta">
+
+    <div class="feedback-cta-content">
+
+        <p>
+            STILL HUNGRY?
+        </p>
+
+        <h2>
+
+            YOUR NEXT
+            <span>FAVOURITE</span>
+            IS WAITING.
+
+        </h2>
+
+        <a href="menu.html" class="feedback-cta-btn">
+
+            EXPLORE MENU
+
+            <span>→</span>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-main">
+
+
+<div class="footer-brand">
+
+<img src="images/logo.jpg" alt="Burger Emporium Logo" class="footer-logo">
+
+<p>
+Big flavours. Built different.
+Fresh burgers, bold flavours and good food
+made for every craving.
+</p>
+
+<div class="footer-socials">
+
+<a href="https://www.instagram.com/burgeremporium?stkn=dXFmY3RkZTRmY2N5" target="_blank" rel="noopener noreferrer">
+        Instagram
+    </a>
+
+<a href="https://www.facebook.com/share/1LD84eHTKr/" target="_blank" rel="noopener noreferrer">
+        Facebook
+    </a>
+
+
+
+</div>
+
+</div>
+
+
+<div class="footer-column">
+
+<h3>
+EXPLORE
+</h3>
+
+<a href="index.html">
+Home
+</a>
+
+<a href="menu.html">
+Menu
+</a>
+
+<a href="about.html">
+About Us
+</a>
+
+<a href="gallery.html">
+Gallery
+</a>
+
+</div>
+
+
+<div class="footer-column">
+
+<h3>
+CONNECT
+</h3>
+
+<a href="feedback.html">
+Feedback
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+<a href="partner.html">
+Partnership
+</a>
+
+</div>
+
+
+<div class="footer-column footer-contact">
+
+<h3>
+GET IN TOUCH
+</h3>
+
+<p>
+<span>PHONE</span>
++91 9260918656
+</p>
+
+<p>
+<span>EMAIL</span>
+burgeremporiumindia@gmail.com
+</p>
+
+<p>
+<span>LOCATION</span>
+Shahjahanpur, Uttar Pradesh
+</p>
+
+</div>
+
+</div>
+
+
+<div class="footer-bottom">
+
+<p>
+© 2026 Burger Emporium. All Rights Reserved.
+</p>
+
+<p>
+Made with ❤️ for burger lovers.
+</p>
+
+</div>
+
+</footer>
+
+
+
+<script src="js/script.js"></script>
+
+
+<!-- FEEDBACK FORM SCRIPT -->
+
+<script>
+
+    const feedbackForm =
+        document.getElementById("feedbackForm");
+
+    const feedbackSuccess =
+        document.getElementById("feedbackSuccess");
+
+
+    feedbackForm.addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        feedbackSuccess.classList.add("show");
+
+        feedbackForm.reset();
+
+        setTimeout(function() {
+
+            feedbackSuccess.classList.remove("show");
+
+        }, 5000);
+
+    });
+
+</script>
+
+
+</body>
+
+</html>
