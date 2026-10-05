@@ -98,7 +98,7 @@ router.post(
         res.cookie("adminToken", token, {
             httpOnly: true,
             secure: process.env.NODE_ENV === "production",
-            sameSite: "lax",
+            sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
             maxAge: 2 * 60 * 60 * 1000,
             path: "/"
         });
@@ -131,7 +131,7 @@ router.post("/logout", (req, res) => {
     res.clearCookie("adminToken", {
         httpOnly: true,
         secure: process.env.NODE_ENV === "production",
-        sameSite: "lax",
+        sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
         path: "/"
     });
 
