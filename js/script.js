@@ -1,3 +1,4 @@
+console.log("BURGER EMPORIUM SCRIPT LOADED");
 const API_BASE_URL = "https://burger-emporium-api.onrender.com";
 const hamburger = document.getElementById("hamburger");
 const navMenu = document.getElementById("navMenu");
