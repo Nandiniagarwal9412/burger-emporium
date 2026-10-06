@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nandiniagarwal9412.github.io/burger-emporium/sitemap.xml
