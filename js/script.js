@@ -186,7 +186,7 @@ if (feedbackForm) {
     feedbackForm.addEventListener("submit", async function (event) {
 
         event.preventDefault();
-
+        console.log("1. Feedback submit handler started");
         // Get selected recommendation
         const selectedRecommendation = document.querySelector(
             'input[name="recommend"]:checked'
@@ -208,7 +208,7 @@ if (feedbackForm) {
             alert("Please select whether you would recommend us.");
             return;
         }
-
+        console.log("2. Validation passed");
         // Get form values
         const formData = {
             name: document.getElementById("feedbackName").value,
@@ -226,7 +226,7 @@ if (feedbackForm) {
             // HTML uses "recommend", backend expects "recommendation"
             recommendation: selectedRecommendation.value
         };
-
+        console.log("3. About to send API request");
         try {
 
             const response = await fetch(
