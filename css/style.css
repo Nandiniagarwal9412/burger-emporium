@@ -118,3 +118,18 @@
 .contact-hero-content h1{font-size:clamp(52px,6.5vw,90px);}
 .partner-hero-content h1{font-size:clamp(52px,6.5vw,95px);}
 }
+.admin-login-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: rgba(255, 248, 237, 0.45);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.admin-login-link:hover {
+    color: #f4a261;
+    transform: translateY(-2px);
+}
