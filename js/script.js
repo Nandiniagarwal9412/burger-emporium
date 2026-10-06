@@ -146,7 +146,7 @@ if (contactForm) {
             });
 
             const data = await response.json();
-
+            console.log("Feedback API response:", data);
             if (data.success) {
 
                 contactSuccess.classList.add("show");
