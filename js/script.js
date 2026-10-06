@@ -180,7 +180,7 @@ if (contactForm) {
 
 const feedbackForm = document.getElementById("feedbackForm");
 const feedbackSuccess = document.getElementById("feedbackSuccess");
-
+console.log("Feedback form found:", feedbackForm);
 if (feedbackForm) {
 
     feedbackForm.addEventListener("submit", async function (event) {
